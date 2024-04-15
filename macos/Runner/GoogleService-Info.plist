@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBqMS-hocHsdjxD06xsEQXZbvwa8JxiDT8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>511856634071</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.cafeteriaInstituto.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>cafeteria-instituto</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cafeteria-instituto.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:511856634071:ios:391c9ca5ba4f7f492ea892</string>
+</dict>
+</plist>
