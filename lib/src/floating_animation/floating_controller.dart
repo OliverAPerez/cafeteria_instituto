@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:cafeteria_instituto/all.dart';
 
 import '../utils/constants.dart';
 import 'floating_event.dart';
@@ -40,10 +41,8 @@ class FloatingController {
     if (restBackVelocity == null) {
       return 1;
     } else {
-      const double restBackVelRange =
-          AppConstants.maxRestBackVel - AppConstants.minRestBackVel;
-      final double adjusted =
-          AppConstants.minRestBackVel + (restBackVelocity! * restBackVelRange);
+      const double restBackVelRange = AppConstants.maxRestBackVel - AppConstants.minRestBackVel;
+      final double adjusted = AppConstants.minRestBackVel + (restBackVelocity! * restBackVelRange);
       return 1 - adjusted;
     }
   }

@@ -127,7 +127,7 @@ class CarritoLogic {
                             ),
                           ],
                         );
-                      }).toList(),
+                      }),
                       const SizedBox(height: 16),
                       const Divider(thickness: 1),
                       const SizedBox(height: 16),

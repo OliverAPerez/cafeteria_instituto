@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:coffee_shop/components/navbar/custom_navbar.dart';
-import 'package:coffee_shop/firestorelogic/perfil/profile_logic.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
+
+import '../../components/navbar/custom_navbar.dart';
+import '../../firestorelogic/perfil/profile_logic.dart';
 
 class ProfilePage extends StatelessWidget {
   final User? user;

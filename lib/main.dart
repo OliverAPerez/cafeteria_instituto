@@ -1,16 +1,18 @@
-import 'package:coffee_shop/firebase_options.dart';
-import 'package:coffee_shop/firestorelogic/menu/firestore_logic.dart';
-import 'package:coffee_shop/pages/carrito/carrito_page.dart';
-import 'package:coffee_shop/pages/historialpedidos/historial_pedidos_page.dart';
-import 'package:coffee_shop/pages/historialrecargas/historial_recargas_page.dart';
-import 'package:coffee_shop/pages/login/authPage.dart';
-import 'package:coffee_shop/pages/menu/menu_page.dart';
-import 'package:coffee_shop/pages/modificarperfil/modificar_perfil_page.dart';
-import 'package:coffee_shop/pages/recargasaldo/recarga_saldo_page.dart';
+import '../firebase_options.dart';
+import '../firestorelogic/menu/firestore_logic.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import 'pages/carrito/carrito_page.dart';
+import 'pages/historialpedidos/historial_pedidos_page.dart';
+import 'pages/historialrecargas/historial_recargas_page.dart';
+import 'pages/login/authPage.dart';
+import 'pages/menu/menu_page.dart';
+import 'pages/modificarperfil/modificar_perfil_page.dart';
+import 'pages/recargasaldo/recarga_saldo_page.dart';
 
 void main() async {
   SystemChrome.setSystemUIOverlayStyle(
@@ -37,7 +39,7 @@ class MyApp extends StatelessWidget {
           title: 'Cafeteria App',
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(
-              seedColor: Color.fromARGB(255, 33, 104, 80),
+              seedColor: const Color.fromARGB(255, 33, 104, 80),
             ),
             useMaterial3: true,
           ),

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:coffee_shop/components/navbar/custom_navbar.dart';
-import 'package:coffee_shop/firestorelogic/resumenpedido/resumen_pedido_logic.dart';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:intl/intl.dart';
+
+import '../../components/navbar/custom_navbar.dart';
+import '../../firestorelogic/resumenpedido/resumen_pedido_logic.dart';
 
 class ResumenPedidoPage extends StatelessWidget {
   final ResumenPedidoLogic _resumenPedidoLogic = ResumenPedidoLogic();

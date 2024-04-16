@@ -1,5 +1,5 @@
-import 'package:coffee_shop/firestorelogic/login/login_page_logic.dart';
-import 'package:coffee_shop/pages/recoveryaccount/account_recovery_page.dart';
+import 'package:cafeteria_instituto/firestorelogic/login/login_page_logic.dart';
+import 'package:cafeteria_instituto/pages/recoveryaccount/account_recovery_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '../../components/menupage/my_button.dart';

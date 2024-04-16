@@ -1,6 +1,6 @@
+import 'package:cafeteria_instituto/firestorelogic/historialrecargas/historial_recargas_logic.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import 'package:coffee_shop/firestorelogic/historialrecargas/historial_recargas_logic.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

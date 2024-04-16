@@ -1,6 +1,7 @@
+import 'package:cafeteria_instituto/components/navbar/custom_navbar.dart';
+import 'package:cafeteria_instituto/widgets/menu/menu_item.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:coffee_shop/components/navbar/custom_navbar.dart';
-import 'package:coffee_shop/widgets/menu/menu_item.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -42,7 +43,7 @@ class _MenuPageState extends State<MenuPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 67, 77, 69),
+        backgroundColor: const Color.fromARGB(255, 67, 77, 69),
         title: const Text(
           'Menú Cafetería',
           style: TextStyle(color: Colors.white),
@@ -123,7 +124,7 @@ class _MenuPageState extends State<MenuPage> {
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: selectedCategory == categories[index] ? Color.fromRGBO(4, 94, 59, 0.733) : Colors.grey,
+                      backgroundColor: selectedCategory == categories[index] ? const Color.fromRGBO(4, 94, 59, 0.733) : Colors.grey,
                       shape: RoundedRectangleBorder(
                         // Agregar bordes redondeados aquí
                         borderRadius: BorderRadius.circular(10), // Ajustar el valor del radio según tus necesidades

@@ -1,13 +1,14 @@
 import 'dart:io';
 
-import 'package:coffee_shop/firestorelogic/user/user_logic.dart';
-import 'package:coffee_shop/pages/menu/menu_page.dart';
-import 'package:coffee_shop/pages/perfil/perfil_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
+
+import '../../firestorelogic/user/user_logic.dart';
+import '../menu/menu_page.dart';
+import '../perfil/perfil_page.dart';
 
 class UserPage extends StatefulWidget {
   final User? user;

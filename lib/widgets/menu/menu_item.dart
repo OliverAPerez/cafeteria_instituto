@@ -8,14 +8,14 @@ class MenuItem extends StatefulWidget {
   final VoidCallback addToCart;
 
   const MenuItem({
-    Key? key,
+    super.key,
     required this.name,
     required this.price,
     required this.imageUrl,
     required this.isFavorite,
     required this.addToCart,
     required Null Function() toggleFavorite,
-  }) : super(key: key);
+  });
 
   @override
   _MenuItemState createState() => _MenuItemState();

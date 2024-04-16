@@ -1,8 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:coffee_shop/components/navbar/custom_navbar.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+
+import '../../components/navbar/custom_navbar.dart';
 
 @override
 class HistorialPage extends StatelessWidget {
